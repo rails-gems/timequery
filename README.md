@@ -2,6 +2,7 @@
 time range query
 
 ## Usage
+auto extend below methods on ActiveRecord::Base
 ```
 between_range_column column_name, begin_at, end_at
 day_range_column column_name, time = Time.current
